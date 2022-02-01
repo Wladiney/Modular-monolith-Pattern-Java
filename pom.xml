@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>pattern.aggregator</groupId>
-    <artifactId>pattern.aggregator</artifactId>
+    <groupId>modular-monolith</groupId>
+    <artifactId>modular-monolith</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>Aggregator</name>
+    <name>modular-monolith</name>
     <description>This pom is a maven aggregator that contains all application modules</description>    
     
 
@@ -18,7 +18,8 @@
     </parent>
     
     <properties>
-      <java.version>1.8</java.version>
+		<java.version>11</java.version>
+		<sonar.java.source>11</sonar.java.source>
     </properties>
 
     <modules>

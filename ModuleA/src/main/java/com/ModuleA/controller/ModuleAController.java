@@ -8,7 +8,7 @@ import com.ModuleA.model.ModuleA;
 
 @RestController
 @RequestMapping("/moduleA")
-public class ModuleAController {
+final class ModuleAController {
 
 	@RequestMapping(value = "/getModuleA", method = RequestMethod.GET)
 	public String firstPage() {
