@@ -14,8 +14,8 @@
 	</parent>
 
 	<properties>
-		<java.version>11</java.version>
-		<sonar.java.source>11</sonar.java.source>
+		<java.version>17</java.version>
+		<sonar.java.source>17</sonar.java.source>
 	</properties>
 
 	<dependencies>

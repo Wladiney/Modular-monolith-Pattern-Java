@@ -8,6 +8,7 @@ import com.ModuleA.Service.ServiceA;
 import com.ModuleB.Service.ServiceB;
 
 @RestController
+//every exposed class should be final to prevent a override in another module
 final class  ModuleBController {
 	
 	@RequestMapping(value = "/getModuleB", method = RequestMethod.GET)

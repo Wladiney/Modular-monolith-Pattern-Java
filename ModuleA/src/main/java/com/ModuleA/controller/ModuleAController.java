@@ -8,6 +8,7 @@ import com.ModuleA.model.ModuleA;
 
 @RestController
 @RequestMapping("/moduleA")
+//every exposed class should be final to prevent a override in another module
 final class ModuleAController {
 
 	@RequestMapping(value = "/getModuleA", method = RequestMethod.GET)
