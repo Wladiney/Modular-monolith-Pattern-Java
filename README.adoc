@@ -2,6 +2,10 @@
 
 This project is an Spring Boot multimodule application
 
-* Generate project distribution using *mvn clean install* command on Parent
-  module.
-* Execute *mvn spring-boot:run* command on Application module (contains .war)
+* Generate project distribution using *mvn clean install* command.
+* Execute *mvn spring-boot:run* command on Application module.
+
+docker:
+
+* build: *docker build . -t monolit*
+* run: *docker run -d -p 8080:8080 monolit*
