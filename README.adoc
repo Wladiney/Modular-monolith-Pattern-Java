@@ -9,6 +9,6 @@ This project is an Spring Boot multimodule application
 * OpenAPI:  *http://localhost:8080/v3/api-docs*
 
 docker:
-
+* first run: *mvn clean install*
 * build: *docker build . -t monolit*
 * run: *docker run -d -p 8080:8080 monolit*
